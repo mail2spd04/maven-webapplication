@@ -21,8 +21,13 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.30.222.21:9090/kkfounda</sonar.host.url>
-		<sonar.login>squ_ab740ff28effd414a65a501491669c7c28ace0f1</sonar.login>
+		<sonar.host.url>http://13.201.43.166:9000</sonar.host.url>
+               <!--
+                 <sonar.login>admin</sonar.login>
+                <sonar.password>sonar</sonar.password>
+                -->
+                <sonar.login>squ_1d8139f01239a2fffd4f6d8ed38f2c8104a5e374</sonar.login>
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
