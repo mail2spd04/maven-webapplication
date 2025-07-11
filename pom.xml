@@ -15,7 +15,6 @@
 		<name>KK FUNDA</name>
 		<url>http://kkfunda.com</url>
 	</organization>
-
 	
 	<properties>
 		<jdk.version>17</jdk.version>
