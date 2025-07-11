@@ -10,7 +10,6 @@
 </head>
 <body>
 <h1 align="center">Welcome to KK AWS Devops pull SCM periodically GitWebhook ######  </h1>
-<h1 align="center"> KK FUNDA</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -34,7 +33,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/kkfunda.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		KK FUNDA Devops, 
+		KK FUNDA AWS Devops, 
 		Martha Halli, Banglore,
 		Bangalore,
 		+91-9676831734,+91-9676831734
