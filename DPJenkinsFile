@@ -11,6 +11,7 @@ pipeline {
         // pollSCM('* * * * *')
     }
 
+
     parameters 
     {
         choice(name: 'branchNames', choices: ['master', 'dev', 'qa','f1'], description: 'Select the branch to build from')
