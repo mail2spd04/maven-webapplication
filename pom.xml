@@ -6,14 +6,14 @@
 	<artifactId>maven-web-application-kkfunda</artifactId>
 	<packaging>war</packaging>
 	<version>1.2.0-SNAPSHOT</version>
-	<!--<version>1.3.0</version>    -->
+	<!--<version>1.3.0</version>         -->
 	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>KK FUNDA</name>
+		<name>KK FUNDA Test</name>
 		<url>http://kkfunda.com</url>
 	</organization>
 	
@@ -23,6 +23,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://13.234.202.150:9000</sonar.host.url>
+
                <!--
                  <sonar.login>admin</sonar.login>
                 <sonar.password>sonar</sonar.password>
