@@ -11,6 +11,11 @@ pipeline {
         // pollSCM('* * * * *')
     }
 
+    parameters 
+    {
+        choice(name: 'branchNames', choices: ['master', 'dev', 'qa'], description: 'Select the branch to build from')
+    }
+
     stages {
         stage('Main Pipeline Execution') {
             steps {
@@ -21,7 +26,7 @@ pipeline {
 
                         // Git Checkout
                         stage('Git Checkout') {
-                            git branch: 'dev', credentialsId: '6af083e0-dcd0-4ed5-bb9c-53952b6f3b23', url: 'https://github.com/mail2spd04/maven-webapplication.git'
+                            git branch: params.branchNames, credentialsId: '6af083e0-dcd0-4ed5-bb9c-53952b6f3b23', url: 'https://github.com/mail2spd04/maven-webapplication.git'
                         }
 
                         // Compile
