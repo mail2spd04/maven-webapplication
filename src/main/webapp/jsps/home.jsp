@@ -80,7 +80,7 @@
 
 <header>
     <h1>Welcome to KK FUNDA - AWS DevOps Pipeline Demo project @@@$$##### </h1>
-    <p><strong>Triggered via SCM Polling &$$$ Git Webhook</strong></p>
+    <p><strong>Triggered via SCM Polling &$$$  Git Webhook</strong></p>
 </header>
 
 <div class="content">
