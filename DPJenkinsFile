@@ -21,6 +21,7 @@ pipeline {
             steps {
                 script {
                     try {
+                        currentBuild.displayName = "#${BUILD_NUMBER} - ${params.ENVIRONMENT}"
                         // Start Notification
                         notifyBuild('STARTED')
 
